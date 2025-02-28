@@ -1,0 +1,19 @@
+module.exports.ErrorCode = Object.freeze({
+  INTERNAL_ERROR: 500,
+  ALREADY_EXIST: 409,
+  NOT_FOUND: 404,
+  INVALID_OTP: 400,
+  OTP_EXPIRED: 403,
+  INVALID_CREDENTIAL: 401,
+  WENT_WRONG: 501,
+  REQUEST_FAILED: 402,
+  BAD_REQUEST: 404,
+  NOT_ACCEPTABLE: 406,
+  FORBIDDEN: 403,
+  UNAUTHORIZED: 401,
+});
+module.exports.SuccessCode = Object.freeze({
+  CREATION: 201,
+  SUCCESS: 200,
+  OTP_VERIFIED: 202,
+});

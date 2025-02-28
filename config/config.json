@@ -1,0 +1,20 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "texely -node-dev",
+        "app_desc": "texely-node-dev",
+        "node_port": 8080,
+        "json_indentation": 4,
+        "host": "localhost",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "RazorpaySecret": "rzp_live_YpQV83DcnwIDEl,xAdfA2Ith6ROmVsIw909tjOw",
+        "database": "texely-node-dev",
+        "url": "",
+        "swaggerURL": "localhost:8080",
+        "nodemailer": {
+            "user": "texly97@gmail.com",
+            "pass": "Texly_PVT_LTD@1"
+        }
+    }
+}
