@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config({ path: "./config.env" });
-const DB_URI = "mongodb+srv://Test_Connection:Manoj2000@cluster0.uf11sxk.mongodb.net/Texly_Private_Limited?retryWrites=true&w=majority";
-// const DB_URI = "mongodb+srv://texly97:vjmDk5ROzbKVKPqH@texly-cluster.b0nb5nq.mongodb.net";
+// const DB_URI = "mongodb+srv://Test_Connection:Manoj2000@cluster0.uf11sxk.mongodb.net/Texly_Private_Limited?retryWrites=true&w=majority";
+const DB_URI = "mongodb+srv://texly97:vjmDk5ROzbKVKPqH@texly-cluster.b0nb5nq.mongodb.net/?retryWrites=true&w=majority&appName=TEXLY-CLUSTER";
 
 console.log("DB_URI from config.env:", DB_URI);
 mongoose.connect(DB_URI, {
