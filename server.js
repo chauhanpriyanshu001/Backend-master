@@ -57,6 +57,6 @@ app.get("/", (req, res) => {
   res.status(200).json({ message: "ok" });
 });
 server.listen(global.gConfig.node_port, () => {
-  console.log("server is running on port :", global.gConfig.node_port);
+  console.log("server is running on port :", process.env.PORT || global.gConfig.node_port);
  // console.log("Environment",global.gConfig);
 });
